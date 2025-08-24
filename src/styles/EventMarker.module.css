@@ -1,0 +1,21 @@
+.eventMarker {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--marker-color, #007bff);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.eventMarker:hover {
+    background-color: var(--marker-hover-color, #0056b3);
+}
+
+.eventYear {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+}

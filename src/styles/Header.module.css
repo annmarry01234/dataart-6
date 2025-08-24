@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack logo and heading vertically */
+  background-color: var(--header-background);
+  padding: 20px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 10px; /* Space between logo and heading */
+}
+
+.heading {
+  font-size: 2rem;
+  color: #e91e63;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-shadow: 1px 1px 3px #ffb6c1;
+}
+
+/* Theme variables */
+:root {
+  --header-background: #fff0f6;
+}
+
+body.dark-mode {
+  --header-background: #d471c4;
+}
